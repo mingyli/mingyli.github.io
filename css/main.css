@@ -58,7 +58,9 @@ h1 {
 .btn:active {
     background-color: white;
 }
-
+.btn:active i {
+    color: #C41E3A;
+}
 
 
 .debug {
