@@ -10,7 +10,7 @@
 }
 
 * {
-    font-family: Verdana;
+    font-family: 'Open Sans', Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 
 html, body {
@@ -20,17 +20,24 @@ html, body {
 
 }
 
+h1 {
+    font-family: 'Raleway';
+    font-weight: bolder;
+    font-size: 50px;
+}
+
 .btn {
     display: inline-block;
     padding: 15px 30px;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     width: 100px;
     /*text-transform: uppercase;*/
     letter-spacing: 0.015em;
     font-size: 18px;
     font-weight: 700;
     line-height: 1;
-    color: black;
+    border-radius: 5px;
+    color: #C41E3A;
     text-decoration: none;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
@@ -39,11 +46,19 @@ html, body {
 }
 .btn:hover {
     background-color: #C41E3A;
-    /*color: white;*/
+    color: white;
 }
+.btn:hover span {
+    display: none;
+}
+/*.btn:hover i {
+    display: inline;
+}*/
 .btn:active {
     background-color: white;
 }
+
+
 
 .debug {
     border: 0px solid red;
