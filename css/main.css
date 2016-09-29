@@ -1,7 +1,6 @@
 #centerpiece {
     text-align: center;
     margin: 0 auto;
-    /*border: 1px solid red;*/
     height: 100%;
     width: 100%;
     position: absolute;
@@ -17,7 +16,6 @@ html, body {
     height: 100%;
     overflow: hidden;
     position: relative;
-
 }
 
 h1 {
@@ -44,6 +42,9 @@ h1 {
     -o-transition: all 0.4s;
     transition: all 0.4s;
 }
+.btn i {
+    display: none;
+}
 .btn:hover {
     background-color: #C41E3A;
     color: white;
@@ -51,9 +52,9 @@ h1 {
 .btn:hover span {
     display: none;
 }
-/*.btn:hover i {
+.btn:hover i {
     display: inline;
-}*/
+}
 .btn:active {
     background-color: white;
 }
