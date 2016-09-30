@@ -1,5 +1,9 @@
-#centerpiece {
+:root {
+    --main-bg-color: white;
+    --cardinal: #C41E3A;
+}
 
+#centerpiece {
     text-align: center;
     margin: 0 auto;
     height: 100%;
@@ -17,26 +21,30 @@ html, body {
     height: 100%;
     overflow: hidden;
     position: relative;
+    background-color: var(--main-bg-color);
 }
 
 h1 {
     /*font-family: 'Raleway';*/
     font-weight: bolder;
     font-size: 50px;
+    color: black;
 }
+
 
 .btn {
     display: inline-block;
     padding: 15px 30px;
+    /*vertical-align: middle;*/
+    /*height: 50px;*/
     /*border: 2px solid black;*/
     width: 100px;
-    /*text-transform: uppercase;*/
     letter-spacing: 0.015em;
     font-size: 18px;
     font-weight: 700;
     line-height: 1;
     border-radius: 5px;
-    color: #C41E3A;
+    color: var(--cardinal);
     text-decoration: none;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
@@ -47,7 +55,7 @@ h1 {
     display: none;
 }
 .btn:hover {
-    background-color: #C41E3A;
+    background-color: var(--cardinal);
     color: white;
 }
 .btn:hover span {
@@ -60,7 +68,7 @@ h1 {
     background-color: white;
 }
 .btn:active i {
-    color: #C41E3A;
+    color: var(--cardinal);
 }
 
 
