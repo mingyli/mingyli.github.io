@@ -10,8 +10,15 @@
     width: 100%;
     position: absolute;
     right: 0;
-    top: 30%;
+    top: 10%;
+    /*debug*/
+    /*border: 1px solid red;*/
 }
+
+#links {
+    margin: 20px;
+}
+
 
 * {
     font-family: 'Open Sans', Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
@@ -38,7 +45,7 @@ h1 {
     display: inline-block;
     padding: 15px 30px;
     /*vertical-align: middle;*/
-    /*height: 50px;*/
+    height: 20px;
     /*border: 2px solid black;*/
     width: 100px;
     letter-spacing: 0.015em;
