@@ -16,8 +16,20 @@
     /*border: 1px solid red;*/
 }
 
+ul li {
+    display: inline;
+}
+
 #links {
+    display: inline-block;
+    list-style: none;
+    overflow: hidden;
+    padding: 0px;
+}
+
+#linkswrapper {
     margin: 20px;
+    text-align: center;
 }
 
 
