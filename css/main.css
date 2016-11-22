@@ -4,26 +4,46 @@
 
 }
 
-#centerpiece {
+#header {
     text-align: center;
     margin: 0 auto;
-    height: 100%;
     width: 100%;
-    position: absolute;
-    right: 0;
-    top: 10%;
+    top: 100px;
+    display: block;
     /*debug*/
     /*border: 1px solid red;*/
 }
 
-ul li {
-    display: inline;
+#container {
+    /*text-align: center;*/
+    display: block;
+    width: 70%;
+    margin: auto;
+    /*padding: 10px;*/
 }
+
+#columns {
+    display: flex;
+}
+
+#columns>div {
+    width: 50%;
+    padding: 10px;
+}
+
+#spotify {
+    text-align: center;
+}
+iframe {
+    width: 80%;
+    height: 100%;
+}
+
 
 #links {
     display: inline-block;
     list-style: none;
-    overflow: hidden;
+    /*overflow: hidden;*/
     padding: 0px;
 }
 
@@ -34,12 +54,13 @@ ul li {
 
 
 * {
-    font-family: 'Open Sans', Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-family: Calibri, 'Open Sans', Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 
-html, body {
+html {
     height: 100%;
-    overflow: hidden;
+    width: 80%;
+    overflow: auto;
     position: relative;
     background-color: var(--main-bg-color);
 }
@@ -53,45 +74,37 @@ h1 {
     padding: 0px;
 }
 
+h2 {
+    margin: 0px;
+    font-size: 36px;
+    font-weight: bold;
+    /*text-align: center;*/
+}
 
-.btn {
-    display: inline-block;
-    padding: 15px 30px;
-    /*vertical-align: middle;*/
-    height: 20px;
-    /*border: 2px solid black;*/
-    width: 100px;
-    letter-spacing: 0.015em;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1;
-    border-radius: 5px;
-    color: var(--cardinal);
-    text-decoration: none;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s;
+
+div {
+    display: block;
 }
-.btn i {
-    display: none;
-}
-.btn:hover {
-    background-color: var(--cardinal);
-    color: white;
-}
-.btn:hover span {
-    display: none;
-}
-.btn:hover i {
+
+ul li {
     display: inline;
 }
-.btn:active {
-    background-color: white;
+
+p {
+    margin: 10px;
+    margin-left: 0px;
 }
-.btn:active i {
+
+.projectlink {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 0px;
     color: var(--cardinal);
+    margin-bottom: 0px;
 }
+
 
 
 .debug {
