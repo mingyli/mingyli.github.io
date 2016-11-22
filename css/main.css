@@ -20,6 +20,7 @@
     width: 70%;
     margin: auto;
     /*padding: 10px;*/
+    border-top: 1px solid var(--cardinal);
 }
 
 #columns {
@@ -63,6 +64,11 @@ html {
     overflow: auto;
     position: relative;
     background-color: var(--main-bg-color);
+}
+
+body {
+    position: absolute;
+    top: 10%;
 }
 
 h1 {
