@@ -10,24 +10,29 @@
 body {
     padding: 5rem;
 }
+h1, h2 {
+    font-weight: lighter;
+}
 h1 {
     font-size: 50px;
-    font-weight: lighter;
-    color: black;
+    text-align: center;
 }
 h2 {
     font-size: 36px;
-    font-weight: lighter;
 }
-.container, .row {
+.container-fluid {
     padding: 2rem 20rem;
 }
-.container {
-    text-align: center;
-}
+
 .btn {
     border: none;
 }
 .row {
 
+}
+
+@media (max-width: 767px) {
+    .container-fluid {
+        padding: 0rem;
+    }
 }
