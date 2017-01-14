@@ -14,25 +14,66 @@ h1, h2 {
     font-weight: lighter;
 }
 h1 {
-    font-size: 50px;
-    text-align: center;
+    font-size: 6rem;
 }
 h2 {
-    font-size: 36px;
+    font-size: 4rem;
 }
+p {
+    font-size: 1.5rem;
+}
+hr {
+    margin: 1rem 20rem;
+    border-color: var(--cardinal);
+}
+
 .container-fluid {
     padding: 2rem 20rem;
 }
-
+.projectlink, .projectlink:link, .projectlink:visited, .projectlink:hover, .projectlink:active {
+    font-size: 2rem;
+    color: var(--cardinal);
+}
 .btn {
-    border: none;
+    color: var(--cardinal);
+    background-color: inherit;
+    width: 8rem;
+    border-radius: 0.5rem;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
 }
-.row {
-
+.btn span {
+    display: none;
+}
+.btn i {
+    display: inline;
+    color: var(--cardinal);
+}
+.btn:hover {
+    background-color: var(--cardinal);
+    color: white;
+}
+.btn:hover i {
+    display: none;
+}
+.btn:hover span {
+    display: inline;
+}
+.btn:active {
+    background-color: white;
+}
+.btn:active i, .btn:active span {
+    color: var(--cardinal);
 }
 
-@media (max-width: 767px) {
+
+@media (max-width: 768px) {
     .container-fluid {
-        padding: 0rem;
+        padding: 0rem 0rem;
+    }
+    hr {
+        margin: 0rem;
     }
 }
