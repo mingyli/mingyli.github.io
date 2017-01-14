@@ -7,8 +7,16 @@
     font-family: Helvetica, Calibri, Open Sans, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
     font-weight: lighter;
 }
+html {
+    height: 100%;
+}
 body {
-    padding: 5rem;
+    padding: 0rem 10rem;
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    /*vertical-align: middle;*/
 }
 h1, h2 {
     font-weight: lighter;
@@ -23,13 +31,10 @@ p {
     font-size: 1.5rem;
 }
 hr {
-    margin: 1rem 20rem;
     border-color: var(--cardinal);
 }
 
-.container-fluid {
-    padding: 2rem 20rem;
-}
+
 .projectlink, .projectlink:link, .projectlink:visited {
     font-size: 2rem;
     color: var(--cardinal);
@@ -83,15 +88,12 @@ hr {
 }
 
 
-@media (max-width: 768px) {
-    .container-fluid {
-        padding: 0rem 0rem;
-    }
-    hr {
-        margin: 0rem;
-    }
+@media only screen and (max-width: 768px) {
     * {
         font-weight: normal;
+    }
+    body {
+        padding: 2rem;
     }
     .btn {
         width: auto;
