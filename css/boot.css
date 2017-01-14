@@ -1,0 +1,33 @@
+:root {
+    --main-bg-color: white;
+    --cardinal: #C41E3A;
+}
+
+* {
+    font-family: Helvetica, Calibri, Open Sans, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    font-weight: lighter;
+}
+body {
+    padding: 5rem;
+}
+h1 {
+    font-size: 50px;
+    font-weight: lighter;
+    color: black;
+}
+h2 {
+    font-size: 36px;
+    font-weight: lighter;
+}
+.container, .row {
+    padding: 2rem 20rem;
+}
+.container {
+    text-align: center;
+}
+.btn {
+    border: none;
+}
+.row {
+
+}
