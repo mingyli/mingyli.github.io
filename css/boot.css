@@ -76,7 +76,7 @@ hr {
     hr {
         margin: 0rem;
     }
-    p {
+    * {
         font-weight: normal;
     }
     .btn {
@@ -89,6 +89,7 @@ hr {
     }
     .btn:hover i {
         display: inline;
+        color: white;
     }
     .btn:hover span {
         display: none;
