@@ -30,8 +30,22 @@ hr {
 .container-fluid {
     padding: 2rem 20rem;
 }
-.projectlink, .projectlink:link, .projectlink:visited, .projectlink:hover, .projectlink:active {
+.projectlink, .projectlink:link, .projectlink:visited {
     font-size: 2rem;
+    color: var(--cardinal);
+    text-decoration: none;
+    border-radius: 0.3rem;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.projectlink:hover {
+    background-color: var(--cardinal);
+    color: white;
+}
+.projectlink:active {
+    background-color: white;
     color: var(--cardinal);
 }
 .btn {
