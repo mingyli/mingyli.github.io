@@ -37,7 +37,7 @@ hr {
 .btn {
     color: var(--cardinal);
     background-color: inherit;
-    width: 8rem;
+    width: 10rem;
     border-radius: 0.5rem;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
@@ -75,5 +75,28 @@ hr {
     }
     hr {
         margin: 0rem;
+    }
+    p {
+        font-weight: normal;
+    }
+    .btn {
+        width: auto;
+    }
+    /*don't want desktop hover behavior on mobile*/
+    .btn:hover {
+        background-color: var(--cardinal);
+        color: white;
+    }
+    .btn:hover i {
+        display: inline;
+    }
+    .btn:hover span {
+        display: none;
+    }
+    .btn:active {
+        background-color: var(--cardinal);
+    }
+    .btn:active i {
+        color: white;
     }
 }
