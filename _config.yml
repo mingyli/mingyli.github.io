@@ -1,4 +1,6 @@
 name: Ming Li
 markdown: kramdown
 collections:
-- projects
+  projects:
+    output: true
+    permalink: /projects/:path/
