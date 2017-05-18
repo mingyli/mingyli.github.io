@@ -1,0 +1,121 @@
+:root {
+    --main-bg-color: white;
+    --cardinal: #C41E3A;
+}
+
+#header {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    top: 100px;
+    display: block;
+    /*debug*/
+    /*border: 1px solid red;*/
+}
+
+#container {
+    /*text-align: center;*/
+    display: block;
+    width: 70%;
+    margin: auto;
+    /*padding: 10px;*/
+    border-top: 1px solid var(--cardinal);
+}
+
+#columns {
+    display: flex;
+}
+
+#columns>div {
+    width: 50%;
+    padding: 10px;
+}
+
+#spotify {
+    text-align: center;
+}
+iframe {
+    width: 80%;
+    height: 100%;
+}
+
+
+#links {
+    display: inline-block;
+    list-style: none;
+    /*overflow: hidden;*/
+    padding: 0px;
+}
+
+#linkswrapper {
+    margin: 20px;
+    text-align: center;
+}
+
+
+* {
+    font-family: "Helvetica", Calibri, 'Open Sans', Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-weight: lighter;
+}
+
+html {
+    height: 100%;
+    width: 80%;
+    overflow: auto;
+    position: relative;
+    background-color: var(--main-bg-color);
+}
+
+body {
+    position: absolute;
+    top: 10%;
+}
+
+h1 {
+    /*font-family: 'Raleway';*/
+    /*font-weight: bolder;*/
+    font-size: 50px;
+    color: black;
+    margin: 20px;
+    padding: 0px;
+}
+
+h2 {
+    margin: 0px;
+    font-size: 36px;
+    /*font-weight: bold;*/
+    /*text-align: center;*/
+}
+
+
+div {
+    display: block;
+}
+
+ul li {
+    display: inline;
+}
+
+p {
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.projectlink {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 0px;
+    color: var(--cardinal);
+    margin-bottom: 0px;
+}
+
+
+
+.debug {
+    border: 0px solid red;
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+}
