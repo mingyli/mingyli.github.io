@@ -1,6 +1,7 @@
 ---
 layout: project
 title: TeleImmersion Lab
+date: 2017-01-01
 link: https://github.com/mingyli/robot_research
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Ethos
+date: 2016-11-19
 link: https://github.com/mingyli/calhacks-ethos
 ---
 
