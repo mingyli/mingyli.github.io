@@ -1,3 +1,7 @@
+:root {
+    --main-bg-color: white;
+    --cardinal: #C41E3A;
+}
 body {
     margin: 60px auto;
     width: 70%;
@@ -14,7 +18,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: var(--cardinal);
 }
 a:hover {
     text-decoration: underline;
@@ -26,10 +30,10 @@ h1 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: var(--cardinal);
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid var(--cardinal);
     font-size: .8em;
 }
 
