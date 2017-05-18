@@ -19,22 +19,22 @@ nav ul li, footer ul li {
 
 a, a:link, a:visited {
     color: var(--cardinal);
-    /*text-decoration: none;*/
-    /*border-radius: 0.3rem;*/
-    /*-webkit-transition: all 0.4s;
+    text-decoration: none;
+    border-radius: 0.3rem;
+    -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     -o-transition: all 0.4s;
-    transition: all 0.4s;*/
+    transition: all 0.4s;
 }
-/*a:hover {*/
-    /*background-color: var(--cardinal);
+a:hover {
+    background-color: var(--cardinal);
     color: white;
-    text-decoration: none;*/
-/*}*/
-/*a:active {
+    text-decoration: none;
+}
+a:active {
     background-color: white;
     color: var(--cardinal);
-}*/
+}
 
 h1 {
     font-size: 3em;
