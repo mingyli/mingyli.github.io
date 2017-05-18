@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Ethos
+link: https://gym.openai.com/users/mingyli
 ---
 
 Winner of Best Social Impact Hack at Cal Hacks 2016.
