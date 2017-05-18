@@ -47,7 +47,7 @@ p {
 footer {
     position: absolute;
     /*right: 5em;*/
-    bottom: 0;
+    bottom: 1em;
     /*left: 5em;*/
     margin: auto;
     width: 70%;
@@ -69,7 +69,8 @@ ul.posts li {
     background-color: inherit;
     width: 7rem;
     border-radius: 0.5rem;
-    border: 1px solid var(--cardinal);
+    /*border: 1px solid var(--cardinal);*/
+    border: none;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     -o-transition: all 0.4s;
