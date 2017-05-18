@@ -45,3 +45,39 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+
+.btn {
+    color: var(--cardinal);
+    background-color: inherit;
+    width: 7rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--cardinal);
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.btn span {
+    display: none;
+}
+.btn i {
+    display: inline;
+    color: var(--cardinal);
+}
+.btn:hover {
+    background-color: var(--cardinal);
+    color: white;
+}
+.btn:hover i {
+    display: none;
+}
+.btn:hover span {
+    display: inline;
+}
+.btn:active {
+    background-color: white;
+}
+.btn:active i, .btn:active span {
+    color: var(--cardinal);
+}
