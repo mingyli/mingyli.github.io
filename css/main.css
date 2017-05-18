@@ -20,21 +20,21 @@ nav ul li, footer ul li {
 a, a:link, a:visited {
     color: var(--cardinal);
     text-decoration: none;
-    border-radius: 0.3rem;
-    -webkit-transition: all 0.4s;
+    /*border-radius: 0.3rem;*/
+    /*-webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     -o-transition: all 0.4s;
-    transition: all 0.4s;
+    transition: all 0.4s;*/
 }
-a:hover {
-    background-color: var(--cardinal);
+/*a:hover {*/
+    /*background-color: var(--cardinal);
     color: white;
-    text-decoration: none;
-}
-a:active {
+    text-decoration: none;*/
+/*}*/
+/*a:active {
     background-color: white;
     color: var(--cardinal);
-}
+}*/
 
 h1 {
     font-size: 3em;
@@ -45,6 +45,7 @@ p {
     line-height: 1.4em;
 }
 footer {
+    position: absolute;
     border-top: 1px solid var(--cardinal);
     font-size: .8em;
 }
