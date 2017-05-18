@@ -1,2 +1,4 @@
 name: Ming Li
 markdown: kramdown
+collections:
+- projects
