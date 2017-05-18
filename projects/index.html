@@ -6,7 +6,6 @@ title: projects
 	<ul class="posts">
 
 		{% assign projs = site.projects | sort: 'date' %}
-	  <!--{% for project in projs reversed %}-->
 		{% for project in projs %}
 	    <li><a href="{{ project.url }}" title="{{ project.title }}">{{ project.title }}</a></li>
 	  {% endfor %}
