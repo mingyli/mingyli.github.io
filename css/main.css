@@ -5,6 +5,7 @@
 body {
     margin: 60px auto;
     width: 70%;
+    height: 100%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -47,8 +48,9 @@ p {
 footer {
     position: absolute;
     bottom: 1em;
-    margin: auto;
+    /*margin: auto;*/
     width: 70%;
+    height: 100px;
     border-top: 1px solid var(--cardinal);
     font-size: 1em;
 }

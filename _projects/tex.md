@@ -7,15 +7,6 @@ link: #
 
 here i am testing kramdown's support for math
 
-$$ x^2 = \frac{3}{2} $$
-
-$$
-\begin{align*}
-    x &= 2 \\
-    y &= 3 \\
-\end{align*}
-$$
-
 From AIME I 2015:
 
 Consider all 1000-element subsets of the set \\( \{1,2, \cdots ,2015 \} \\). From each subset choose the least element. Find the arithmetic mean of these least elements.
@@ -24,7 +15,9 @@ Consider all 1000-element subsets of the set \\( \{1,2, \cdots ,2015 \} \\). Fro
 
 There are \\( \binom{2015}{1000} \\) subsets of cardinality 1000. 
 How many of these subsets have \\(1\\) as the least element? To construct each of these subsets, we choose 1 to be in the set, and then 999 of the remaining 2014 numbers. So there are \\( \binom{2014}{999} \\) subsets with 1 as the least element.
+
 What about the number of subsets that have \\( i \\) as the least element? Like before, we choose \\( i \\) to be in each subset. Since \\( i \\) must be the least element, we can only choose the remaining elements to be from the \\( 2015 - i \\) elements greater than \\( i \\). Then there are \\( \binom{2015-i}{999} \\) such subsets.
+
 To find the arithmetic mean of the least elements, we sum the least elements and divide by the number of subsets of size 1000. The sum of the least elements is
 
 $$
