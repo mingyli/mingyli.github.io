@@ -48,8 +48,13 @@ p {
     font-size: 1em;
     line-height: 1em;
 }
+.container {
+    min-height: 100%;
+    position: relative;
+}
 footer {
     position: absolute;
+    display: block;
     bottom: 0;
     /*margin: auto;*/
     width: 70%;
