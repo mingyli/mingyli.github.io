@@ -47,7 +47,6 @@ p {
 footer {
     position: absolute;
     bottom: 1em;
-    height: 4em;
     margin: auto;
     width: 70%;
     border-top: 1px solid var(--cardinal);
