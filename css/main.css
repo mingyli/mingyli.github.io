@@ -3,12 +3,12 @@
     --cardinal: #C41E3A;
 }
 html {
-    height: 100$;
+    min-height: 100%;
+    position: relative;
 }
 body {
     margin: 60px auto;
     width: 70%;
-    height: 100%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -48,13 +48,9 @@ p {
     font-size: 1em;
     line-height: 1em;
 }
-.container {
-    min-height: 100%;
-    position: relative;
-}
+
 footer {
     position: absolute;
-    display: block;
     bottom: 0;
     /*margin: auto;*/
     width: 70%;
