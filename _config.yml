@@ -1,5 +1,6 @@
 name: Ming Li
 markdown: kramdown
+highlighter: rouge
 collections:
   projects:
     output: true
