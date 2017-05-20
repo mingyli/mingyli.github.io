@@ -25,9 +25,9 @@ A single integer, representing the maximum fullness Bessie can achieve.
 
 #### Solution
 
-If Bessie can reach a fullness value of \\( i \\), then she can also reach fullness values of \\(i+A\\) and \\(i+B\\). Bessie starts at a fullness of \\(0\\), and can immediately reach fullness values of \\(A\\) and \\(B\\).
+If Bessie can reach a fullness value of \\( i \\), then she can also reach fullness values of \\(i+A\\) and \\(i+B\\). Since Bessie starts at a fullness of \\(0\\), she can immediately reach fullness values of \\(A\\) and \\(B\\), and then continues from there.
 
-Since we get unlimited uses of oranges and lemons, this is an unbounded knapsack problem. We can solve quickly this using dynamic programming. However, we also need to consider whether Bessie drinks water, which will allow her to reach a fullness value of \\( \frac{i}{2} \\), but unable to drink water again. 
+Since we get unlimited uses of oranges and lemons, this is an unbounded knapsack problem. We can solve quickly this using dynamic programming. However, we also need to consider whether Bessie drinks water, which will allow her to reach a fullness value of \\( \lfloor \frac{i}{2} \rfloor \\), but unable to drink water again. 
 
 Here is my solution in C++:
 

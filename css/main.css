@@ -25,13 +25,14 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+
 p {
-    font-size: 1em;
+    font-size: 1.3em;
     line-height: 1em;
 }
-p.project {
-    font-size: 2em;
-    line-height: 2em;
+.note p {
+    font-size: 1em;
+    line-height: 1em;
 }
 
 footer {
