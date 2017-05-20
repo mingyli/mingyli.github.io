@@ -1,6 +1,8 @@
 name: Ming Li
 markdown: kramdown
-highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 collections:
   projects:
     output: true

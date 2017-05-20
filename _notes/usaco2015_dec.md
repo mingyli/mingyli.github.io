@@ -21,36 +21,39 @@ The first (and only) line has three integers \\(T\\), \\(A\\), and \\(B\\).
 
 A single integer, representing the maximum fullness Bessie can achieve.
 
+---
+
 #### Solution
 
+If Bessie can reach a fullness value of \\( i \\), then she can also reach fullness values of \\(i+A\\) and \\(i+B\\). Bessie starts at a fullness of \\(0\\), and can immediately reach fullness values of \\(A\\) and \\(B\\).
 
-Here is my solution without boilerplate:
+Since we get unlimited uses of oranges and lemons, this is an unbounded knapsack problem. We can solve quickly this using dynamic programming. However, we also need to consider whether Bessie drinks water, which will allow her to reach a fullness value of \\( \frac{i}{2} \\), but unable to drink water again. 
+
+Here is my solution in C++ without boilerplate:
 
 
-{% highlight c++ %}
+```cpp
 int T, A, B;
 bool full[5000010];
 
-void dp(int i, bool halved) {
+void dp(int i, bool drank) {
     if (i < 0 || i > T || full[i])
         return;
     full[i] = true;
-    dp(i+A, halved);
-    dp(i+B, halved);
-    if (!halved)
+    dp(i+A, drank);
+    dp(i+B, drank);
+    if (!drank)
         dp(i/2, true);
 }
 
 int main() {
     cin >> T >> A >> B;
     dp(0, false);
-    int ans = 0;
     for (int i = T; i >= 0; i--) {
         if (full[i]) {
-            ans = i;
-            break;
+            cout << i << endl;
+            return;
         }
     }
-    cout << ans << endl;
 }
-{% endhighlight %}
+```
