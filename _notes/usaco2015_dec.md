@@ -29,10 +29,14 @@ If Bessie can reach a fullness value of \\( i \\), then she can also reach fulln
 
 Since we get unlimited uses of oranges and lemons, this is an unbounded knapsack problem. We can solve quickly this using dynamic programming. However, we also need to consider whether Bessie drinks water, which will allow her to reach a fullness value of \\( \frac{i}{2} \\), but unable to drink water again. 
 
-Here is my solution in C++ without boilerplate:
+Here is my solution in C++:
 
 
 ```cpp
+#include <iostream>
+
+using namespace std;
+
 int T, A, B;
 bool full[5000010];
 
@@ -52,7 +56,7 @@ int main() {
     for (int i = T; i >= 0; i--) {
         if (full[i]) {
             cout << i << endl;
-            return;
+            break;
         }
     }
 }
