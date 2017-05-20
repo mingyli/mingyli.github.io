@@ -54,6 +54,7 @@ footer {
     bottom: 0;
     width: 70%;
     height: 50px;
+    padding: 5px;
     border-top: 1px solid var(--cardinal);
     font-size: 1em;
 }
