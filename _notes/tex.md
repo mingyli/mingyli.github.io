@@ -1,8 +1,7 @@
 ---
-layout: project
+layout: note
 title: test tex
 date: 2017-05-18
-link: #
 ---
 
 here i am testing kramdown's support for math

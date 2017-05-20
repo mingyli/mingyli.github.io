@@ -2,7 +2,11 @@
 layout: default
 title: notes
 ---
-<div class="notes">
-    <h2>notes</h2>
-    <p>here are notes</p>
-</div>
+
+	<h2>{{ page.title }}</h2>
+	<ul class="notes">
+		{% assign notes = site.notes | sort: 'date' %}
+		{% for note in notes reversed %}
+	    <li><a href="{{ note.url }}" title="{{ note.title }}">{{ note.title }}</a></li>
+	  {% endfor %}
+	</ul>
