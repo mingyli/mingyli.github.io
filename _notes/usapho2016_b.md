@@ -1,6 +1,6 @@
 ---
 layout: note
-title: Select USAPhO 2015 Problem
+title: Select USAPhO 2016 Problem
 date: 2017-05-29
 ---
 
@@ -16,11 +16,11 @@ Express your answer in terms of $$R$$, the radius of the loop. Assume that the r
 
 #### Solution
 
-At what point does the ball lose contact with the loop? Since its velocity at that point must be adjacent to the loop, the ball loses contact with the loop above and to the right of $$P$$ in order to land at $$P$$. 
+At what point does the ball lose contact with the loop? Since its velocity at that point must be adjacent to the loop, the ball loses contact with the loop above and to the right of the center of the loop in order to land at $$P$$. 
 
 <img src="/images/usapho2016_b1.png" height="300px"  style="display:block;margin:auto">
 
-As a result, its height above the ground is $$y = R + R \sin{\theta}$$ and horizontal position with respect to $$P$$ is $$x = R \cos{\theta}$$.
+As a result, its height above $$P$$ is $$y = R + R \sin{\theta}$$ and horizontal position with respect to $$P$$ is $$x = R \cos{\theta}$$.
 
 When the ball loses contact with the loop, it has some velocity $$v$$ and rotates with some angular velocity $$\omega$$. 
 
@@ -57,7 +57,7 @@ mgh &= mg (R + R \sin{\theta}) + \frac{7}{10} m v^2 \\
 \end{align*}
 $$
 
-We are so close to our goal of finding $$h$$ in terms of $$R$$! Let's try to find $$\sin{\theta}$$.
+We are so close to finding $$h$$ in terms of $$R$$! Let's try to find $$\sin{\theta}$$.
 
 Now the ball is a projectile that lands at $$P$$. Let $$t$$ be the time the ball is in projectile motion. If the ball's velocity $$v$$ is tangent to the loop, then its horizontal component is $$v \sin{\theta}$$ and its vertical component is $$v \cos{\theta}$$. Using kinematics,
 
@@ -80,7 +80,7 @@ $$
 \end{align*}
 $$
 
-We find that $$\sin{\theta} = \frac{1}{2}$$ is the only viable solution and we ignore the other solutions. Now we're done!
+We find that $$\sin{\theta} = \frac{1}{2}$$ is the only viable solution and we ignore the other solutions. Now we're done.
 
 $$
 \begin{align*}
