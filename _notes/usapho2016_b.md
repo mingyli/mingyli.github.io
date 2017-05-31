@@ -47,7 +47,19 @@ v^2 &= g R \sin{\theta}
 \end{align*}
 $$
 
-Now the ball is a projectile that lands at $$P$$. Let $$t$$ be the time the ball is in projectile motion. If the ball's velocity $$v$$ is tangent to the loop, then its horizontal component is $$v \cos{\theta}$$ and its vertical component is $$v \sin{\theta}$$. Using kinematics,
+If we plug this back into our previous equation, we get
+
+$$
+\begin{align*}
+mgh &= mg (R + R \sin{\theta}) + \frac{7}{10} m v^2 \\
+    &= mg (R + R \sin{\theta}) + \frac{7}{10} m g R \sin{\theta} \\
+  h &= R + R \sin{\theta} + \frac{7}{10} R \sin{\theta}
+\end{align*}
+$$
+
+We are so close to our goal of finding $$h$$ in terms of $$R$$! Let's try to find $$\sin{\theta}$$.
+
+Now the ball is a projectile that lands at $$P$$. Let $$t$$ be the time the ball is in projectile motion. If the ball's velocity $$v$$ is tangent to the loop, then its horizontal component is $$v \sin{\theta}$$ and its vertical component is $$v \cos{\theta}$$. Using kinematics,
 
 $$
 \begin{align*}
@@ -60,6 +72,21 @@ and
 
 $$
 \begin{align*}
-0 &= (R + R \sin{\theta}) + (v \cos{\theta}) t - \frac{1}{2} g t^2
+0 &= (R + R \sin{\theta}) + (v \cos{\theta}) t - \frac{1}{2} g t^2 \\
+\frac{1}{2} g (\frac{R \cos{\theta}}{v \sin{\theta}})^2 &= (R + R \sin{\theta}) + (v \cos{\theta}) (\frac{R \cos{\theta}}{v \sin{\theta}}) \\
+\frac{1}{2} g \frac{R \cos^2{\theta}}{v^2 \sin{\theta}} &= \sin{\theta} + \sin^2{\theta} + cos^2{\theta} \\
+\frac{\cos^2{\theta}}{2 \sin^2{\theta}} &= \sin{\theta} + 1 \\
+\frac{(1 + \sin{\theta}) (1 - \sin{\theta})}{\sin^2{\theta}} &= 2 (\sin{\theta} + 1) 
 \end{align*}
 $$
+
+We find that $$\sin{\theta} = \frac{1}{2}$$ is the only viable solution and we ignore the other solutions. Now we're done!
+
+$$
+\begin{align*}
+h &= R + R \sin{\theta} + \frac{7}{10} R \sin{\theta} \\
+  &= R + \frac{R}{2} + \frac{7 R}{20} \\
+  &= \frac{37}{20} R
+\end{align*}
+$$
+
