@@ -7,4 +7,4 @@ title: Ming Li
 
 I'm Ming.
 
-Check out some [wild problems](/notes/)! Or learn more [about me](/about/).
+This is still a work in progress, but for now you can check out some [neat problems](/notes/)! Or learn more [about me](/about/).

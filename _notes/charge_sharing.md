@@ -47,3 +47,5 @@ $$
 $$
 
 Notice that $$q_1$$ and $$q_2$$ are not necessarily the same. In fact, $$q_1 = q_2$$ only if $$C_1 = C_2$$ (assuming $$q \neq 0$$).
+
+Isn't that wild?

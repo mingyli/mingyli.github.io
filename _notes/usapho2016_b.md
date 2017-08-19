@@ -90,3 +90,4 @@ h &= R + R \sin{\theta} + \frac{7}{10} R \sin{\theta} \\
 \end{align*}
 $$
 
+Isn't that wild?
