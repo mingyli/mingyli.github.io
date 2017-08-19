@@ -5,6 +5,6 @@ title: Ming Li
 
 ## hello
 
-I am Ming.
+I'm Ming.
 
-I'm still working on this site. For now, you can check out some [fun problems](/notes/).
+Check out some [wild problems](/notes/)! Or learn more [about me](/about/).

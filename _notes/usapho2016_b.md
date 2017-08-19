@@ -1,7 +1,7 @@
 ---
 layout: note
-title: Select USAPhO 2016 Problem
-date: 2017-05-29
+title: a USAPhO 2016 Problem
+date: 2017-05-25
 ---
 
 From USAPhO 2016:

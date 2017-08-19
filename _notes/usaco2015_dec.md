@@ -1,6 +1,6 @@
 ---
 layout: note
-title: Select USACO 2015 Problem
+title: a USACO 2015 Problem
 date: 2017-05-19
 ---
 

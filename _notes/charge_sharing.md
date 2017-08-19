@@ -1,7 +1,7 @@
 ---
 layout: note
 title: Charge Sharing
-date: 2017-05-25
+date: 2017-05-29
 ---
 
 In all circuits involving charge sharing, keep the following in mind:
