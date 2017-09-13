@@ -16,7 +16,7 @@ Express your answer in terms of $$R$$, the radius of the loop. Assume that the r
 
 #### Solution
 
-At what point does the ball lose contact with the loop? Since its velocity at that point must be adjacent to the loop, the ball loses contact with the loop above and to the right of the center of the loop in order to land at $$P$$. 
+At what point does the ball lose contact with the loop? Since its velocity at that point must be adjacent and parallel to the loop, the ball loses contact with the loop above and to the right of the center of the loop in order to land at $$P$$. 
 
 <img src="/images/usapho2016_b1.png" height="300px"  style="display:block;margin:auto">
 

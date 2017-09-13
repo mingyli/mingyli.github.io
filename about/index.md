@@ -3,18 +3,15 @@ layout: default
 title: about
 ---
 
-## {{ page.title }}
+<!-- ## {{ page.title }} -->
 
-<!--
-<img src="../images/minnie.jpg" alt="me XD" width="285px" height="285px" style="display:block;margin:auto;border-radius:50%">
--->
-<img src="../images/minnie.jpg" alt="me XD" width="285px" style="display:block;margin:auto;border-radius:50%;float:right">
+<!-- <img src="../images/minnie.jpg" alt="me XD" width="285px" style="display:block;margin:auto;border-radius:50%;float:right"> -->
 
-### Education
+# Education
 
-I'm a sophomore at UC Berkeley, studying math and computer science.
+#### UC Berkeley 2020
+BA Computer Science and Math
 
-<!---
 Here are some courses I have taken or am currently taking.
 
 - Data Structures
@@ -22,15 +19,20 @@ Here are some courses I have taken or am currently taking.
 - Probability Theory
 - Algorithms
 - Artificial Intelligence
-- Machine Structures
--->
+- Computer Architecture
 
-### Work Experience
 
-I interned at Bloomberg LP as a software engineer during the summer of 2017.
 
-I am currently a uGSI for EE16A, an introductory electrical engineering course.
+# Work Experience
 
-<!---
-<img src="../images/me.jpg" alt="me XD" width="285px" height="285px" style="display:block;margin:auto;border-radius:50%">
--->
+#### Bloomberg LP
+Software Engineering Intern, Summer 2017
+
+#### UC Berkeley EECS Department
+Undergradate Student Instructor, EE16A
+
+#### A-Star Computer Science Camp
+Instructor
+
+<!-- I also teach Discrete Math and Probability Theory through [Computer Science Mentors](https://csmberkeley.github.io). -->
+
