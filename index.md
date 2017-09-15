@@ -25,7 +25,7 @@ I am currently an undergraduate student instructor for EE16A, an introductory el
 I also teach Discrete Math and Probability Theory through [Computer Science Mentors](https://csmberkeley.github.io).
 
 I'm also part of an IM ultimate frisbee team.
-If you ever want to toss, let me know by reaching out below!
+Unfortunately I'm horrible so if you want to help me get better, let me know by reaching out below!
 
 <!-- <img src="../images/minnie.jpg" alt="me XD" width="285px" style="display:block;margin:auto;border-radius:50%;float:right"> -->
 <img src="../images/minnie.jpg" alt="me XD" width="285px" style="display:block;margin:auto;border-radius:50%;float:center">
