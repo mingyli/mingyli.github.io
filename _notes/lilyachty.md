@@ -53,7 +53,7 @@ In fact, he reprimands “you”, asking
 
 > why the f[\*\*] you in these streets if you scared of them four walls?
 
-
 Lil Yachty makes this accusation personal, and pressures his listeners to reconsider being in “these streets.” 
 The phrase “four walls” can refer to either the walls of a prison cell or the walls of a tomb or coffin, both of which are presumably highly undesirable.
+
 *Minnesota*, though upon first listen seems substandard or insignificant, will prove to be a major milestone in the history of trap’s development and evolution.
