@@ -34,7 +34,7 @@ $$
 
 
 For discrete random variables, the function $$f(x) = \Pr(X = x)$$ is known as the probability mass function.
-All probability distributions have the property that the sum of the probabilities over all values of $$x$$ equals 1  ($$\sum\limits_{x} f(x) = 1$$), which we can see is true for this Avalon example.
+All probability distributions have the property that the sum of the probabilities over all values of $$x$$ equals 1  $$(\sum\limits_{x} f(x) = 1)$$, which we can see is true for this Avalon example.
 Another property is that for all $$x$$, $$0 \leq f(x) \leq 1$$.
 
 #### Expected Value
@@ -52,7 +52,7 @@ $$
 
 One thing we notice immediately about the expected value is that it isn't even a possible value for the number of evil people! 
 The intuitive interpretation of the expected value is that over multiple trials of the mission selection, the average number of evil people will tend towards $$\frac{4}{5}$$. 
-This makes sense in this example, as $$X = 1$$ is the most likely outcome, though it is not always the case that the expected value is approximately the same as an outcome (think of a fair coin flip).
+This makes sense in this example, as we would estimate around one evil person since $$X = 1$$ is the most likely outcome, though it is not always the case that the expected value is approximately the same as an outcome (think of a fair coin flip).
 
 #### Linearity of Expectation
 
