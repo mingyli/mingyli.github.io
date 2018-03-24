@@ -1,6 +1,6 @@
 ---
 layout: blank
-title: Ming Li
+title: ming li
 ---
 
 <!-- ![](./images/hand.svg) -->
