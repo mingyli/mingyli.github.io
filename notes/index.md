@@ -5,7 +5,7 @@ title: notes
 
 ## {{ page.title }}
 
-Here are some of my favorite problems/notes I've written for classes:
+Here are some problems/notes I've written for classes:
 
 <ul class="notes">
 	{% assign notes = site.notes | sort: 'date' %}

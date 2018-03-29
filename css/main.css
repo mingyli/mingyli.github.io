@@ -1,6 +1,7 @@
 :root {
-    --main-bg-color: #edf0ff;
-    --accent: #00303f;
+    --main-bg-color: ghostwhite;
+    --main-text-color: black;
+    --accent: slategray;
 }
 html {
     min-height: 100%;
@@ -9,6 +10,7 @@ html {
 body {
     margin: 60px auto;
     width: 70%;
+    color: var(--main-text-color);
     background-color: var(--main-bg-color);
     font-family: 'Quattrocento Sans', 'Helvetica', 'Arial', sans-serif; 
 }
