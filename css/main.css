@@ -1,6 +1,6 @@
 :root {
-    --main-bg-color: antiquewhite;
-    --cardinal: #C41E3A;
+    --main-bg-color: #edf0ff;
+    --accent: #00303f;
 }
 html {
     min-height: 100%;
@@ -9,17 +9,18 @@ html {
 body {
     margin: 60px auto;
     width: 70%;
+    background-color: var(--main-bg-color);
+    font-family: 'Quattrocento Sans', 'Helvetica', 'Arial', sans-serif; 
 }
 ::-moz-selection {
-    background: var(--cardinal);
-    color: white;
+    background: var(--accent);
+    color: var(--main-bg-color);
 }
 ::selection {
-    background: var(--cardinal);
-    color: white;
+    background: var(--accent);
+    color: var(--main-bg-color);
 }
 nav ul, footer ul {
-    font-family: 'Quattrocento Sans', 'Helvetice', 'Arial', sans-serif; 
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -31,7 +32,6 @@ nav ul li, footer ul li {
 
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 p {
@@ -49,7 +49,7 @@ footer {
     width: 70%;
     height: 50px;
     padding: 5px;
-    border-top: 1px solid var(--cardinal);
+    border-top: 1px solid var(--accent);
     font-size: 1em;
 }
 
@@ -66,7 +66,7 @@ ul.posts li {
 /*Below is CSS for neat button hovering*/
 
 a, a:link, a:visited {
-    color: var(--cardinal);
+    color: var(--accent);
     text-decoration: none;
     border-radius: 0.3rem;
     -webkit-transition: all 0.4s;
@@ -75,21 +75,20 @@ a, a:link, a:visited {
     transition: all 0.4s;
 }
 a:hover {
-    background-color: var(--cardinal);
-    color: white;
+    background-color: var(--accent);
+    color: var(--main-bg-color);
     text-decoration: none;
 }
 a:active {
-    background-color: white;
-    color: var(--cardinal);
+    background-color: var(--main-bg-color);
+    color: var(--accent);
 }
 
 .btn {
-    color: var(--cardinal);
+    color: var(--accent);
     background-color: inherit;
     width: 7rem;
     border-radius: 0.5rem;
-    /*border: 1px solid var(--cardinal);*/
     border: none;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
@@ -101,11 +100,11 @@ a:active {
 }
 .btn i {
     display: inline;
-    color: var(--cardinal);
+    color: var(--accent);
 }
 .btn:hover {
-    background-color: var(--cardinal);
-    color: white;
+    background-color: var(--accent);
+    color: var(--main-bg-color);
 }
 .btn:hover i {
     display: none;
@@ -114,8 +113,8 @@ a:active {
     display: inline;
 }
 .btn:active {
-    background-color: white;
+    background-color: var(--main-bg-color);
 }
 .btn:active i, .btn:active span {
-    color: var(--cardinal);
+    color: var(--accent);
 }
