@@ -13,10 +13,11 @@ kramdown:
 gems:
   - jekyll-sitemap
       
+exclude: [
+    notes/,
+]
+
 collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
   notes:
     output: true
     permalink: /notes/:path/

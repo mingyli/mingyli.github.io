@@ -19,9 +19,9 @@ Lyrically, *Minnesota* gives an impression of being incredibly simplistic.
 The chorus of *Minnesota*, admittedly repetitive, is rather bold considering who its predecessors are (T.I., for example, was a real drug dealer and was [arrested many times as a teenager](https://en.wikipedia.org/wiki/T.I.#cite_note-spotlight-10)) because Lil Yachty openly challenges the glorification of drug dealing and gun slinging. 
 Addressing the reader directly, Lil Yachty sings 
 
-> *You need to stay up out them streets if you can’t take the heat*
+> You need to stay up out them streets if you can’t take the heat 
 
-> *‘Cause it get cold like Minnesota.*
+> ‘Cause it get cold like Minnesota.
 
 The contrast between the “heat” of the streets and the “cold” of Minnesota invokes a sense of discomfort as two extremes of temperature are presented as results of being in the streets. 
 Additionally, the word “heat” could be a reference to firearms, as in the phrase “packing heat,” which is, again, a reminder of how dangerous street life can potentially be.
@@ -30,7 +30,6 @@ In his first verse, Lil Yachty references issues his own family faces due to inv
 Lil Yachty sings, 
 
 > I was juggin’ since a youngin’, free my older cousin Reesey.
-
 
 Here, the word “juggin’” means dealing drugs on the streets. 
 The first line establishes Lil Yachty himself as an authority on drug dealing, giving him credence in offering advice on drug life.
