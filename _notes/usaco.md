@@ -4,29 +4,29 @@ title: a USACO 2015 Problem
 date: 2017-05-19
 ---
 
+# {{ page.title }}
+
 From USACO 2015 December Contest, Gold:
 
-### Fruit Feast
+# Fruit Feast
 
-Bessie has broken into Farmer John's house again! 
-She has discovered a pile of lemons and a pile of oranges in the kitchen (effectively an unlimited number of each), and she is determined to eat as much as possible.
-Bessie has a maximum fullness of $$ T $$ $$ (1≤T≤5,000,000) $$. 
-Eating an orange increases her fullness by $$ A $$, and eating a lemon increases her fullness by $$ B $$ (with $$ 1≤A,B≤T $$). 
-Additionally, if she wants, Bessie can drink water at most one time, which will instantly decrease her fullness by half (and will round down).
+> Bessie has broken into Farmer John's house again! 
+> She has discovered a pile of lemons and a pile of oranges in the kitchen (effectively an unlimited number of each), and she is determined to eat as much as possible.
+> Bessie has a maximum fullness of $$ T $$ $$ (1≤T≤5,000,000) $$. 
+> Eating an orange increases her fullness by $$ A $$, and eating a lemon increases her fullness by $$ B $$ (with $$ 1≤A,B≤T $$). 
+> Additionally, if she wants, Bessie can drink water at most one time, which will instantly decrease her fullness by half (and will round down).  
+>
+> Help Bessie determine the maximum fullness she can achieve!
+>
+> **INPUT FORMAT:**
+> 
+> The first (and only) line has three integers $$T$$, $$A$$, and $$B$$.
+> 
+> **OUTPUT FORMAT:**
+> 
+> A single integer, representing the maximum fullness Bessie can achieve.
 
-Help Bessie determine the maximum fullness she can achieve!
-
-**INPUT FORMAT:**
-
-The first (and only) line has three integers $$T$$, $$A$$, and $$B$$.
-
-**OUTPUT FORMAT:**
-
-A single integer, representing the maximum fullness Bessie can achieve.
-
----
-
-#### Solution
+## Solution
 
 If Bessie can reach a fullness value of $$ t $$, then she can also reach fullness values of $$t+A$$ and $$t+B$$. 
 Since Bessie starts at a fullness of $$0$$, she can immediately reach fullness values of $$A$$ and $$B$$, and then continue from there.
@@ -54,7 +54,7 @@ Fortunately, these special cases fall under the $$ F(t, 0) $$ case, which means 
 
 Here is an iterative dynamic programming solution in Java:
 
-{% highlight java %}
+```java
 int fruitFeast(int T, int A, int B) {
     boolean[][] full = new boolean[T + 1][2];
     full[0][0] = true;
@@ -71,7 +71,8 @@ int fruitFeast(int T, int A, int B) {
     // solve F(t, 1) subproblems
     // we'll ignore bounds checks for simplicity
     for (int t = 0; t <= T; t++) {
-        full[t][1] = full[t - A][1] || full[t - B][1] || full[2 * t][0] || full[2 * t + 1][0];
+        full[t][1] = full[t - A][1] || full[t - B][1]
+                || full[2 * t][0] || full[2 * t + 1][0];
     }
 
     // return the largest value of t that Bessie can reach
@@ -80,23 +81,11 @@ int fruitFeast(int T, int A, int B) {
             return t;
     return 0;
 }
-{% endhighlight %}
-<!--
-        /**
-        if (t - A >= 0 && full[t - A][1])
-            full[t][1] = true;
-        if (t - B >= 0 && full[t - B][1])
-            full[t][1] = true;
-        if (2 * t <= T && full[2 * t][0])
-            full[t][1] = true;
-        if (2 * t + 1 <= T && full[2 * t + 1][0])
-            full[t][1] = true;
-        **/
--->
+```
 
 Here is my original, full recursive dynamic programming solution in C++:
 
-{% highlight cpp %}
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -124,5 +113,4 @@ int main() {
         }
     }
 }
-{% endhighlight %}
-
+```

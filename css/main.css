@@ -1,74 +1,97 @@
+@import url('https://rsms.me/inter/inter.css');
+
 :root {
     --main-bg-color: ghostwhite;
-    --main-text-color: black;
+    --main-text-color: rgb(77, 77, 77);
     --accent: slategray;
+    --link-color: steelblue;
 }
-html {
-    min-height: 100%;
-    position: relative;
-}
-body {
-    margin: 60px auto;
-    width: 70%;
-    color: var(--main-text-color);
-    background-color: var(--main-bg-color);
-    font-family: 'Quattrocento Sans', 'Helvetica', 'Arial', sans-serif; 
-}
+
 ::-moz-selection {
     background: var(--accent);
     color: var(--main-bg-color);
 }
+
 ::selection {
     background: var(--accent);
     color: var(--main-bg-color);
 }
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: var(--main-text-color);
+    background-color: var(--main-bg-color);
+    font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
+}
+
 nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
 
-h1 {
-    font-size: 3em;
+blockquote {
+    border-left: 4px solid coral;
+    padding: 0 15px;
+    color: var(--accent);
+    margin-inline-start: 0em;
+    margin-inline-end: 0em;
 }
 
-p {
-    font-size: 1.3em;
-    line-height: 1.5em;
-}
-.note p {
-    font-size: 1.1em;
-    line-height: 1.5em;
+blockquote> :first-child {
+    margin-top: 0;
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 70%;
-    height: 50px;
-    padding: 5px;
-    border-top: 1px solid var(--accent);
-    font-size: 1em;
+blockquote> :last-child {
+    margin-bottom: 0;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+code {
+    margin: 0 2px;
+    padding: 0 5px;
+    white-space: nowrap;
+    border: 1px solid #eaeaea;
+    background-color: white;
+    border-radius: 3px;
+    font-size: 1.2em;
 }
 
-ul.posts li {
-    list-style: none;
+pre {
+    overflow: auto;
+    padding: 6px 10px;
+    border-radius: 3px;
+    border-left: 2px solid coral;
 }
 
+pre code {
+    margin: 0;
+    padding: 0;
+    white-space: pre;
+    border: none;
+    background: transparent;
+    background-color: transparent;
+    border: none;
+}
 
-/*Below is CSS for neat button hovering*/
+.highlight pre {
+    border: 1px solid #cccccc;
+    overflow: auto;
+    padding: 6px 10px;
+    border-radius: 3px;
+}
+
+/* CSS for link hovering */
 
 a, a:link, a:visited {
-    color: var(--accent);
+    color: var(--link-color);
     text-decoration: none;
     border-radius: 0.3rem;
     -webkit-transition: all 0.4s;
@@ -76,47 +99,14 @@ a, a:link, a:visited {
     -o-transition: all 0.4s;
     transition: all 0.4s;
 }
+
 a:hover {
-    background-color: var(--accent);
+    background-color: var(--link-color);
     color: var(--main-bg-color);
     text-decoration: none;
 }
+
 a:active {
     background-color: var(--main-bg-color);
-    color: var(--accent);
-}
-
-.btn {
-    color: var(--accent);
-    background-color: inherit;
-    width: 7rem;
-    border-radius: 0.5rem;
-    border: none;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s;
-}
-.btn span {
-    display: none;
-}
-.btn i {
-    display: inline;
-    color: var(--accent);
-}
-.btn:hover {
-    background-color: var(--accent);
-    color: var(--main-bg-color);
-}
-.btn:hover i {
-    display: none;
-}
-.btn:hover span {
-    display: inline;
-}
-.btn:active {
-    background-color: var(--main-bg-color);
-}
-.btn:active i, .btn:active span {
-    color: var(--accent);
+    color: var(--link-color);
 }

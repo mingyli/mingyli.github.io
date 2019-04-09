@@ -19,8 +19,7 @@ Lyrically, *Minnesota* gives an impression of being incredibly simplistic.
 The chorus of *Minnesota*, admittedly repetitive, is rather bold considering who its predecessors are (T.I., for example, was a real drug dealer and was [arrested many times as a teenager](https://en.wikipedia.org/wiki/T.I.#cite_note-spotlight-10)) because Lil Yachty openly challenges the glorification of drug dealing and gun slinging. 
 Addressing the reader directly, Lil Yachty sings 
 
-> You need to stay up out them streets if you can’t take the heat 
-
+> You need to stay up out them streets if you can’t take the heat   
 > ‘Cause it get cold like Minnesota.
 
 The contrast between the “heat” of the streets and the “cold” of Minnesota invokes a sense of discomfort as two extremes of temperature are presented as results of being in the streets. 
@@ -38,10 +37,8 @@ The juxtaposition of Lil Yachty’s own history with the placement of his cousin
 
 At the end of this verse, he admits that he 
 
-> Almost had a lifetime sentence, but I beat it, shout out to Pat! 
-
+> Almost had a lifetime sentence, but I beat it, shout out to Pat!   
 > Pat, that’s my lawyer, he got me off them charges  
-
 > Eight stacks for that boy. 
 
 Lil Yachty offers a far more personal experience he has had with being involved in crime, citing a “lifetime sentence” that he narrowly avoided. 
