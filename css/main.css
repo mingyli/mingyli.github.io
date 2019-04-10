@@ -1,8 +1,9 @@
 @import url('https://rsms.me/inter/inter.css');
 
 :root {
-    --main-bg-color: ghostwhite;
-    --main-text-color: rgb(77, 77, 77);
+    --main-bg-color: ivory;
+    --main-bg-color: floralwhite;
+    --main-text-color: black;
     --accent: slategray;
     --link-color: steelblue;
 }
@@ -17,9 +18,16 @@
     color: var(--main-bg-color);
 }
 
+/* Structure */
+
+html {
+    font-size: 1.2rem;
+}
+
 body {
     margin: 0 auto;
-    max-width: 50em;
+    width: 85%;
+    max-width: 75em;
     line-height: 1.5;
     padding: 4em 1em;
     color: var(--main-text-color);
@@ -37,6 +45,31 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
+h1 {
+    font-size: 2em;
+}
+
+article {
+    position: relative;
+    width: 60%;
+    font-size: inherit;
+}
+
+.sidenote, .marginnote {
+    float: right;
+    clear: right;
+    margin-right: -60%;
+    width: 50%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    line-height: 1.3;
+    vertical-align: baseline;
+    position: relative;
+}
+
+/* Flavorful regions */
 
 blockquote {
     border-left: 4px solid coral;
@@ -86,6 +119,14 @@ pre code {
     overflow: auto;
     padding: 6px 10px;
     border-radius: 3px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    font-style: italic;
 }
 
 /* CSS for link hovering */
