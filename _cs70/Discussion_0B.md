@@ -1,5 +1,4 @@
 ---
-layout: note
 title: Discussion 0B
 topic: Proof Techniques
 ---

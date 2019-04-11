@@ -1,5 +1,4 @@
 ---
-layout: note
 title: Discussion 2A
 topic: Graphs
 ---

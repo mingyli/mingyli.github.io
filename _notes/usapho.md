@@ -1,5 +1,4 @@
 ---
-layout: note
 title: a USAPhO 2016 Problem
 date: 2017-05-25
 ---

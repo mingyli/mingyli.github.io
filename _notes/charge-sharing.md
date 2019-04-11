@@ -1,5 +1,4 @@
 ---
-layout: note
 title: Charge Sharing
 date: 2017-05-29
 ---

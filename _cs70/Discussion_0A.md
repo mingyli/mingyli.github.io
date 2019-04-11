@@ -1,5 +1,4 @@
 ---
-layout: note
 title: Discussion 0A
 topic: Logic
 dropbox: https://paper.dropbox.com/doc/Discussion-0A--Aa8hFieI~ksvZIEcA5OMpT2eAQ-c9L5zYpxZTH9H4BeEfckQ

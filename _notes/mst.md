@@ -1,5 +1,4 @@
 ---
-layout: note
 title: Minimum Spanning Trees
 date: 2019-02-17
 ---

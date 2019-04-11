@@ -1,5 +1,4 @@
 ---
-layout: note
 title: an AIME 2015 Problem
 date: 2017-05-18
 ---
