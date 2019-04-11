@@ -1,5 +1,4 @@
 ---
-layout: note
 title: Discussion 1B
 topic: Stable Marriage
 ---

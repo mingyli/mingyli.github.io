@@ -1,5 +1,4 @@
 ---
-layout: note
 title: a USACO 2015 Problem
 date: 2017-05-19
 ---

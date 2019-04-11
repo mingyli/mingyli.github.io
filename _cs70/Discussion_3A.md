@@ -1,5 +1,4 @@
 ---
-layout: note
 title: Discussion 3A
 topic: Build-up error and modular arithmetic
 dropbox: https://paper.dropbox.com/doc/Discussion-3A--Aa5aECmHh5COFiiyVx0YqWx4AQ-eQ875X6IWlRQwtWYO7rjT

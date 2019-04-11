@@ -1,5 +1,4 @@
 ---
-layout: note
 title: Discussion 3B
 topic: Bijections and Chinese Remainder Theorem
 dropbox: https://paper.dropbox.com/doc/Discussion-3B--Aa7SrS8IoXBwTKc9CudbJh9LAQ-QAvV9QCoezaVnS62hPOg6
