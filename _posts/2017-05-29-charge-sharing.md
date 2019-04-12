@@ -41,6 +41,10 @@ By conservation of charge, we know that $$q_1 + q_2 = q$$.
 By KVL, we know that voltages across the capacitors must be equal.
 Let the voltage be $$V$$. 
 
+Here we use a neat algebraic trick:
+$$\frac{a}{b} = \frac{c}{d} = \frac{a+c}{b+d}$$
+{: .marginnote}
+
 $$
 \begin{align*}
     V &= \frac{q_1}{C_1} = \frac{q_2}{C_2} \\
@@ -48,9 +52,6 @@ $$
         &= \frac{q}{C_1 + C_2}
 \end{align*}
 $$
-
-Here we use a neat algebraic trick:
-$$\frac{a}{b} = \frac{c}{d} = \frac{a+c}{b+d}$$. 
 
 Now that we have $$V$$, we can now solve for $$q_1$$ and $$q_2$$.
 

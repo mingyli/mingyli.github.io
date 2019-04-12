@@ -25,5 +25,17 @@ defaults:
   -
     scope:
       path: ""
+      type: "posts"
     values:
-      layout: tufte
+      layout: "tufte"
+  -
+    scope:
+      path: ""
+      type: "cs70"
+    values:
+      layout: "center"
+  -
+    scope:
+      path: ""
+    values:
+      layout: "center"

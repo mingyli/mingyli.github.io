@@ -51,10 +51,18 @@ h1 {
 }
 
 article {
-    margin: 0;
     padding: 0;
     position: relative;
+}
+
+article.tufte {
+    margin: 0;
     width: 60%;
+}
+
+article.center {
+    margin: 0 auto;
+    width: 70%;
 }
 
 img {
@@ -104,7 +112,6 @@ pre {
     overflow: auto;
     padding: 6px 10px;
     border-radius: 3px;
-    border-left: 2px solid coral;
     font-size: 0.9em;
 }
 
@@ -120,6 +127,7 @@ pre code {
 
 .highlight pre {
     border: 1px solid #cccccc;
+    border-left: 2px solid coral;
     overflow: auto;
     padding: 6px 10px;
     border-radius: 3px;
