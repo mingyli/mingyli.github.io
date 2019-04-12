@@ -30,7 +30,7 @@ instrumentals are not as gritty or aggressive as before.
 
 Lyrically, *Minnesota* gives off the impression of being incredibly simplistic.
 The chorus of *Minnesota*, admittedly repetitive, is in reality
- ather bold considering who Yachty's predecessors are 
+rather bold considering who Yachty's predecessors are 
 <span class="marginnote">
 T.I., for example, was a real drug dealer and was
 [arrested many times as a

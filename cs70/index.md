@@ -16,9 +16,4 @@ My Dropbox Paper presentations can be found [here][dropbox-paper].
 	{% endfor %}
 </ul>
 
-<!-- {% assign notes = site.notes | sort: 'date' %} -->
-<!-- {% for note in site.cs70 %}
-- [{{note.title}}]({{note.url}}): {{note.topic}}
-{% endfor %} -->
-
 [dropbox-paper]: https://paper.dropbox.com/doc/Directory--Aa8zn3NZUNZZP~Da2Enjg4bcAQ-kbOP14lGGBsqWduzjqez3

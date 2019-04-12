@@ -10,10 +10,13 @@ kramdown:
     block:
       line_numbers: false
       start_line: 1
-gems:
+plugins:
   - jekyll-sitemap
       
 collections:
+  posts:
+    output: true
+    permalink: /notes/:title
   cs70:
     output: true
     permalink: /:collection/:name
