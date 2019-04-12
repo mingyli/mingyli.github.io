@@ -106,6 +106,7 @@ class A
 end
 
 # comment
+# this line should be 80 characters long. this line should be 80 characters long
 
 Opus::Ops::DB::Model::NetworkTransaction::SettlementState.readytosubmit(arg0, arg1, arg2, arg3)
 ```
@@ -141,12 +142,6 @@ int fruitFeast(int T, int A, int B) {
 
 Paragraph in between.
 
-This is a margin note.
-This text **should be bold** and this text *should be italic*.
-Meanwhile, this
-represents `inline code` and this represents a [hyperlink](#).
-{: .marginnote}
-
 
     No paragraph between this and the next
 
@@ -161,6 +156,13 @@ represents `inline code` and this represents a [hyperlink](#).
 Here we see a horizontal rule:
 
 - - -
+
+This is a margin note.
+This text **should be bold** and this text *should be italic*.
+Meanwhile, this
+represents `inline code` and this represents a [hyperlink](#).
+{: .marginnote}
+
 
 How do emoji render? 🤔 👌 🚀
 

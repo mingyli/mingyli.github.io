@@ -14,9 +14,6 @@ gems:
   - jekyll-sitemap
       
 collections:
-  notes:
-    output: true
-    permalink: /:collection/:name
   cs70:
     output: true
     permalink: /:collection/:name

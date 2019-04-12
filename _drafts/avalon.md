@@ -1,5 +1,4 @@
 ---
-layout: note
 title: Discrete Random Variables through Avalon
 date: 2018-01-04
 ---

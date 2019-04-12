@@ -1,5 +1,5 @@
 ---
-title: a USACO 2015 Problem
+title: Fruit Feast
 date: 2017-05-19
 ---
 
