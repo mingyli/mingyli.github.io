@@ -18,42 +18,47 @@
     color: var(--main-bg-color);
 }
 
-/* Structure */
-
 html {
-    font-size: 1.2rem;
+    font-size: 100%;
 }
 
 body {
     margin: 0 auto;
     width: 85%;
-    max-width: 60em;
+    max-width: 60rem;
     line-height: 1.5;
-    padding: 4em 1em;
+    padding: 4rem 1rem;
     color: var(--main-text-color);
     background-color: var(--main-bg-color);
     font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
 }
 
 nav ul, footer ul {
-    padding: 0px;
+    padding: 0;
     list-style: none;
     font-weight: bold;
 }
 
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 2rem;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 article {
+    margin: 0;
+    padding: 0;
     position: relative;
     width: 60%;
-    font-size: inherit;
+}
+
+img {
+    max-width: 100%;
 }
 
 .sidenote, .marginnote {
@@ -69,14 +74,12 @@ article {
     position: relative;
 }
 
-/* Flavorful regions */
-
 blockquote {
     border-left: 4px solid coral;
     padding: 0 15px;
     color: var(--accent);
-    margin-inline-start: 0em;
-    margin-inline-end: 0em;
+    margin-inline-start: 0rem;
+    margin-inline-end: 0rem;
 }
 
 blockquote> :first-child {
@@ -102,6 +105,7 @@ pre {
     padding: 6px 10px;
     border-radius: 3px;
     border-left: 2px solid coral;
+    font-size: 0.9em;
 }
 
 pre code {
