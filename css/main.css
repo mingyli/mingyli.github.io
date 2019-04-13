@@ -1,10 +1,10 @@
 @import url('https://rsms.me/inter/inter.css');
 
 :root {
-    --main-bg-color: ivory;
     --main-bg-color: floralwhite;
     --main-text-color: black;
     --accent: slategray;
+    --flourish: coral;
     --link-color: steelblue;
 }
 
@@ -83,7 +83,7 @@ img {
 }
 
 blockquote {
-    border-left: 4px solid coral;
+    border-left: 4px solid var(--flourish);
     padding: 0 15px;
     color: var(--accent);
     margin-inline-start: 0rem;
@@ -127,7 +127,7 @@ pre code {
 
 .highlight pre {
     border: 1px solid #cccccc;
-    border-left: 2px solid coral;
+    border-left: 2px solid var(--flourish);
     overflow: auto;
     padding: 6px 10px;
     border-radius: 3px;
@@ -139,6 +139,16 @@ dt {
 
 dd {
     font-style: italic;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th {
+    border-bottom: 2px solid var(--flourish);
 }
 
 /* CSS for link hovering */
