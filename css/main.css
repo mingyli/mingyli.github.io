@@ -173,3 +173,28 @@ a:active {
     background-color: var(--main-bg-color);
     color: var(--link-color);
 }
+
+@media screen and (max-width: 500px) {
+  .sidenote, .marginnote {
+    visibility: hidden;
+    display: none;
+  }
+
+  body {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  article.tufte, article.center {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  nav ul {
+    text-align: center;
+  }
+  nav ul li {
+    display: inline-block;
+    margin: 0 1rem;
+  }
+}
