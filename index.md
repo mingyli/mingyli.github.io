@@ -3,9 +3,9 @@ layout: basic
 title: ming li
 ---
 
-<img src="/images/hand.svg" width="285px" 
+<img src="/assets/limecolored.svg" width="285px" 
     draggable="false" 
-    style="display: block; margin: auto; border-radius: 50%; float: none; 
+    style="display: block; margin: auto; float: none; 
            position: absolute; 
            top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%);
            -webkit-user-select: none;

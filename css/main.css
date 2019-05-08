@@ -1,21 +1,18 @@
 @import url('https://rsms.me/inter/inter.css');
 
 :root {
-    --main-bg-color: floralwhite;
+    --main-bg-color: #fcfffc;
+    --alt-bg-color: #B0F2CD;
+    --highlight-color: #d3f1e8;
     --main-text-color: black;
-    --accent: slategray;
-    --flourish: coral;
-    --link-color: steelblue;
-}
-
-::-moz-selection {
-    background: var(--accent);
-    color: var(--main-bg-color);
+    --alt-text-color: darkslategray;
+    --accent: #055829;
+    --link-color: rgb(15, 91, 48);
+    --link-color-opaque: rgba(15, 91, 48, 0.2);
 }
 
 ::selection {
-    background: var(--accent);
-    color: var(--main-bg-color);
+    background-color: var(--highlight-color);
 }
 
 html {
@@ -83,9 +80,9 @@ img {
 }
 
 blockquote {
-    border-left: 4px solid var(--flourish);
+    border-left: 4px solid var(--accent);
     padding: 0 15px;
-    color: var(--accent);
+    color: var(--alt-text-color);
     margin-inline-start: 0rem;
     margin-inline-end: 0rem;
 }
@@ -127,7 +124,7 @@ pre code {
 
 .highlight pre {
     border: 1px solid #cccccc;
-    border-left: 2px solid var(--flourish);
+    border-left: 2px solid var(--accent);
     overflow: auto;
     padding: 6px 10px;
     border-radius: 3px;
@@ -148,30 +145,46 @@ table {
 }
 
 th {
-    border-bottom: 2px solid var(--flourish);
+    border-bottom: 2px solid var(--accent);
 }
 
 /* CSS for link hovering */
 
 a, a:link, a:visited {
     color: var(--link-color);
+    position: relative;
+    z-index: 1;
     text-decoration: none;
-    border-radius: 0.3rem;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     -o-transition: all 0.4s;
     transition: all 0.4s;
 }
 
-a:hover {
-    background-color: var(--link-color);
+a:active {
     color: var(--main-bg-color);
+    background-color: var(--accent);
     text-decoration: none;
 }
 
-a:active {
-    background-color: var(--main-bg-color);
-    color: var(--link-color);
+a::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--link-color-opaque);
+    transform-origin: bottom center;
+    transform: scaleY(0.1);
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover::before {
+    z-index: -1;
+    transform: scaleY(1);
+    background-color: var(--link-color-opaque);
 }
 
 @media screen and (max-width: 500px) {

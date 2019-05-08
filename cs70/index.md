@@ -5,7 +5,7 @@ title: cs70
 # notes for cs70
 
 Here are notes I wrote for when I TAed
-[CS70: Discrete Mathematics and Probability Theory](http://eecs70.org).
+[CS70](http://eecs70.org): Discrete Mathematics and Probability Theory.
 My Dropbox Paper presentations can be found [here][dropbox-paper].
 
 <ul>

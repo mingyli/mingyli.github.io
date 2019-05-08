@@ -18,7 +18,7 @@ A common misconception students have is that charge is distributed
 evenly among capacitors.
 We will show that this is not necessarily the case.
 
-![charge-sharing](/images/charge_sharing0.png)
+![charge-sharing](/assets/charge_sharing0.png)
 
 In the above diagram, capacitor 1 begins with a positive charge $$+q$$
 on its top plate and negative charge $$-q$$ on its bottom plate.
@@ -36,7 +36,7 @@ We label each top plate as positive and each bottom plate as negative
 (the labeling scheme won't matter in the end as long as we are consistent).
 By conservation of charge, we know that $$q_1 + q_2 = q$$.
 
-![charge-sharing](/images/charge_sharing1.png)
+![charge-sharing](/assets/charge_sharing1.png)
 
 By KVL, we know that voltages across the capacitors must be equal.
 Let the voltage be $$V$$. 
