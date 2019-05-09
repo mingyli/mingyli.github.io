@@ -3,8 +3,6 @@ title: Discussion 2B
 topic: Graphs
 ---
 
-# Discussion 2B
-
 # 1 Touring Hypercube
 ## Tours
 - **Eulerian tour**: a tour that traverses each edge exactly once

@@ -4,7 +4,6 @@ topic: Logic
 dropbox: https://paper.dropbox.com/doc/Discussion-0A--Aa8hFieI~ksvZIEcA5OMpT2eAQ-c9L5zYpxZTH9H4BeEfckQ
 ---
 
-# Discussion 0A
 - OH: Th 3 to 4pm in Soda 651
 - Discussion: TuTh 5 to 6pm in Dwinelle 105
 - Logistics: Piazza and [sp19@eecs70.org](mailto:sp19@eecs70.org)

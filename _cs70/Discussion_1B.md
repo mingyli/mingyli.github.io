@@ -3,8 +3,6 @@ title: Discussion 1B
 topic: Stable Marriage
 ---
 
-# Discussion 1B
-
 # Induction Problem
 
 A party has $$n \geq 2$$ people. A *celebrity* is a person who knows nobody, but everyone knows the celebrity. If you ask questions of the form ***Does*** $$A$$ ***know*** $$B$$ ***?*** prove that you can figure out who the celebrity is (or that there is no celebrity) using $$3 n - 4$$ questions.

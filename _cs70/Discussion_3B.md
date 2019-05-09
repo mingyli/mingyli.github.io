@@ -4,8 +4,6 @@ topic: Bijections and Chinese Remainder Theorem
 dropbox: https://paper.dropbox.com/doc/Discussion-3B--Aa7SrS8IoXBwTKc9CudbJh9LAQ-QAvV9QCoezaVnS62hPOg6
 ---
 
-# Discussion 3B
-
 # Bijections
 
 Consider two sets $$A$$ and $$B$$, and a function $$f : A \mapsto B$$ that maps elements from $$A$$ to the elements of $$B$$.

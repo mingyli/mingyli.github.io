@@ -3,8 +3,6 @@ title: Subset Mean
 date: 2017-05-18
 ---
 
-# {{ page.title }}
-
 From AIME I 2015:
 
 > Consider all $$1000$$-element subsets of the set $$ \{1,2, \ldots ,2015 \}

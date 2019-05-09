@@ -3,8 +3,6 @@ title: Discussion 1A
 topic: Induction
 --- 
 
-# Discussion 1A
-
 # Induction
 
 > Prove that for all $$n \in \mathbb{N}$$, $$P(n)$$ holds.

@@ -4,8 +4,6 @@ topic: Build-up error and modular arithmetic
 dropbox: https://paper.dropbox.com/doc/Discussion-3A--Aa5aECmHh5COFiiyVx0YqWx4AQ-eQ875X6IWlRQwtWYO7rjT
 ---
 
-# Discussion 3A
-
 # Build-up Error in Graphs
 
 > Prove that if every vertex in a graph has positive degree, then the graph is connected.

@@ -3,11 +3,7 @@ title: Fruit Feast
 date: 2017-05-19
 ---
 
-# {{ page.title }}
-
 From USACO 2015 December Contest, Gold:
-
-# Fruit Feast
 
 > Bessie has broken into Farmer John's house again! 
 > She has discovered a pile of lemons and a pile of oranges in the kitchen (effectively an unlimited number of each), and she is determined to eat as much as possible.

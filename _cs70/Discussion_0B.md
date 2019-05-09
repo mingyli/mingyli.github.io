@@ -2,7 +2,6 @@
 title: Discussion 0B
 topic: Proof Techniques
 ---
-# Discussion 0B
 
 # Proof techniques
 ## Direct

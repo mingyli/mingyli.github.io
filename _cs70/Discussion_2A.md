@@ -3,8 +3,6 @@ title: Discussion 2A
 topic: Graphs
 ---
 
-# Discussion 2A
-
 # 1. Graph Basics
 - **graph**: $$G = (V, E)$$ consists of vertices $$V$$ connected by edges $$E$$
   - **directed**: edges have directions

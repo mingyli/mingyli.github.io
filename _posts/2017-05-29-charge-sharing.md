@@ -3,8 +3,6 @@ title: Charge Sharing
 date: 2017-05-29
 ---
 
-# {{ page.title }}
-
 In all circuits involving charge sharing, keep the following in mind:
 
 1. Kirchhoff's voltage law.

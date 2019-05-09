@@ -2,10 +2,6 @@
 title: notes
 ---
 
-# {{ page.title }}
-
-Here are some miscellaneous problems and notes I've written in the past:
-
 <ul>
 	{% for post in site.posts %}
         <li>
