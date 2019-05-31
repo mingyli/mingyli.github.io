@@ -28,14 +28,17 @@ defaults:
       type: "posts"
     values:
       layout: "tufte"
+      use_math: true
   -
     scope:
       path: ""
       type: "cs70"
     values:
       layout: "center"
+      use_math: true
   -
     scope:
       path: ""
     values:
       layout: "center"
+      use_math: false
