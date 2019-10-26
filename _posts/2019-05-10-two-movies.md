@@ -192,15 +192,17 @@ answer:
 ```python
 import numpy as np
 
+
 def simulate() -> int:
-    count:int = 0
-    curr:float = 0.0
+    count: int = 0
+    curr: float = 0.0
     while True:
         count += 1
-        draw:float = np.random.uniform(low=0.0, high=5.0)
+        draw: float = np.random.uniform(low=0.0, high=5.0)
         if draw + curr > 7.5:
             return count
         curr = max(curr, draw)
+
 
 n = 10000
 results = [simulate() for _ in range(n)]

@@ -1,6 +1,11 @@
+title: Ming Li
 name: Ming Li
-markdown: kramdown
+
+permalink: pretty
+show_excerpts: false
+
 highlighter: rouge
+markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
@@ -10,8 +15,6 @@ kramdown:
     block:
       line_numbers: false
       start_line: 1
-plugins:
-  - jekyll-sitemap
       
 collections:
   posts:
