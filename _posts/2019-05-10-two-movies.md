@@ -94,7 +94,7 @@ next movie selected.
       their sum does not exceed $$ 7.5 $$ and $$ X_{n+1} = Y $$.
     - Otherwise, $$ Y \in [ 7.5 - X_n, 5 ] $$ and their sum exceeds $$7.5$$
       so we reach the terminal state $$ X_{n+1} = \Omega $$.
-3. Suppse $$ X_n \in [ 3.75, 5 ] $$.
+3. Suppose $$ X_n \in [ 3.75, 5 ] $$.
     - If $$ Y \in [ 0, 7.5 - X_n ) $$, then their sum does not exceed $$7.5$$
       and $$ X_{n+1} = X_n $$.
     - Otherwise, $$ Y \in [ 7.5 - X_n , 5 ] $$ and we reach the terminal state.
